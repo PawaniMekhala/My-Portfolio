@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Welcome to my portfolio! I'm Pawani Mekhala, an undergraduate student 
@@ -49,32 +49,39 @@ front-end and back-end programming.`;
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Animal Heaven Pet Care Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      `Animal Heaven is  website that users can find pets to adopt, foster, or donate money to
+help them.`,
+    technologies: ["HTML", "CSS", "JS"],
   },
   {
-    title: "Task Management App",
+    title: "Coffee House Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      `Coffee House is a dynamic website that users can explore a menu of coffee blends and 
+      detailed information about each coffee, including ingredients 
+      and brewing methods. Additionally, the website provides a convenient contact form for feedback and inquiries.`,
+    technologies: ["HTML", "CSS", "JS"],
   },
   {
-    title: "Portfolio Website",
+    title: "Emo-Rhythm music app",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      `Emo-Rhythma is mobile application that helps to find music recommendations
+based on users' facial expressions and emotional states.
+`,
+    technologies: ["Figma", "Flutter", "Firebase"],
   },
   {
-    title: "Blogging Platform",
+    title: "Job Finder Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      `Job Finder is a comprehensive website designed to that companies can post their job opportunities and users can
+find suitable jobs for them and they can apply jobs.
+`,
+    technologies: ["ReactJs", "Tailwind CSS", "NodeJs","MongoDB","ExpressJs"],
   },
 ];
 

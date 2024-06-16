@@ -8,10 +8,14 @@ const Navbar = () => {
             <img className='mx-3 w-12' src={logo} alt='logo' />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedin/>
-            <FaGithub/>
-            <FaHackerrank/>
-            <FaFacebook/>
+          <a href="https://www.linkedin.com/in/pawani-mekhala/" target="_blank" rel="pawani-mekhala">
+          <FaLinkedin/></a>
+          <a href="https://github.com/PawaniMekhala" target="_blank" rel="pawani-mekhala">
+          <FaGithub/></a>
+          <a href="https://www.hackerrank.com/profile/pgpmekhala" target="_blank" rel="pawani-mekhala">
+          <FaHackerrank/></a>
+          {/* <a href="www.linkedin.com/in/pawani-mekhala" target="_blank" rel="pawani-mekhala">
+          <FaFacebook/></a> */}
         </div>
     </nav>
   )
