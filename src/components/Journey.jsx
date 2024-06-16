@@ -25,6 +25,20 @@ const Journey = () => {
         <div className="flex justify-center lg:justify-start">
           <p className="my-2 max-w-xl py-6">{MY_JOURNEY}</p>
         </div>
+        <motion.div 
+           whileInView={{opacity: 1, x: 0}} 
+           initial={{opacity: 0, x: 100}}
+           transition={{duration: 1}}  
+           className="flex justify-center lg:justify-start">
+          <a 
+            href="https://drive.google.com/file/d/1FqgjSJLeJ-SoGDJflI5EdWKpeA0b5eZ0/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="mt-5 inline-block rounded-lg border border-blue-500 px-5 py-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent hover:bg-blue-500 hover:text-white"
+          >
+            Resume
+          </a>
+        </motion.div>
         </motion.div>
       </div>
     </div>
