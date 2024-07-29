@@ -31,7 +31,7 @@ const Journey = () => {
            transition={{duration: 1}}  
            className="flex justify-center lg:justify-start">
           <a 
-            href="https://drive.google.com/file/d/1FqgjSJLeJ-SoGDJflI5EdWKpeA0b5eZ0/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1NZAsaaWAXtHDrvTqhoYQ5asE1WcgqobP/view?usp=sharing" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="mt-5 inline-block rounded-lg border border-blue-500 px-5 py-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent hover:bg-blue-500 hover:text-white"
