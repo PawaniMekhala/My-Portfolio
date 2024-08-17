@@ -3,13 +3,13 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Welcome to my portfolio! I'm Pawani Mekhala, an undergraduate student 
-at Sabaragamuwa University of Sri Lanka, studying Computing & Information Systems. I really love 
-software engineering and enjoy working on cool projects that make a difference. I think teamwork 
-and new ideas are super powerful. Whether I'm making a fun app for your phone or helping out with 
-a website, I always give it my all. I love taking ideas and turning them into stuff that's easy 
-for everyone to use. My big goal is to keep learning and use my skills to help with important 
-projects that make a difference.`;
+export const HERO_CONTENT = `Welcome to my portfolio! I'm Pawani Mekhala, I am currently pursuing a 
+BSc. Honours Degree in Computing & Information Systems at Sabaragamuwa University of Sri Lanka. 
+I really love software engineering and enjoy working on cool projects that make a difference. 
+I think teamwork and new ideas are super powerful. Whether I'm making a fun app for your phone 
+or helping out with a website, I always give it my all. I love taking ideas and turning them into 
+stuff that's easy for everyone to use. My big goal is to keep learning and use my skills to help 
+with important projects that make a difference.`;
 
 export const MY_JOURNEY = `My journey into the world of computing began with a fascination for technology's 
 ability to solve real-world problems. As I pursued my degree, I immersed myself in diverse aspects of 
