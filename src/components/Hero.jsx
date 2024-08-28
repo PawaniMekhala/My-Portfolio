@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-10 text-2xl font-light tracking-tight lg:mt-16 lg:text-7xl"
+              className="pb-10 text-3xl font-light tracking-tight lg:mt-16 lg:text-7xl"
             >Pawani Mekhala
             </motion.h1>
             <motion.span
@@ -38,7 +38,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-400 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Mobile App/Web Developer
+              Mobile/Web Developer
             </motion.span>
             <motion.p
               variants={container(1.5)}
